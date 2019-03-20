@@ -1,0 +1,137 @@
+# Set ut schema and clear database
+CREATE SCHEMA IF NOT EXISTS `DatDat`;
+USE `DatDat`;
+
+
+DROP TABLE IF EXISTS `DatDat`.`FriOvelse`;
+DROP TABLE IF EXISTS `DatDat`.`FastOvelse`;
+DROP TABLE IF EXISTS `DatDat`.`OvelseiTreningsokt`;
+DROP TABLE IF EXISTS `DatDat`.`Ovelse`;
+DROP TABLE IF EXISTS `DatDat`.`Ovelsegruppe`;
+DROP TABLE IF EXISTS `DatDat`.`Favorittokt`;
+DROP TABLE IF EXISTS `DatDat`.`Treningsokt`;
+DROP TABLE IF EXISTS `DatDat`.`Apparat`;
+
+
+CREATE USER IF NOT EXISTS 'bruker'@'localhost' IDENTIFIED BY 'passord123';
+GRANT SELECT, INSERT ON DatDat.* TO 'bruker'@'localhost';
+FLUSH PRIVILEGES;
+
+
+# Create tables
+CREATE TABLE `DatDat`.`Ovelsegruppe`
+(
+  `idOvelsegruppe` 		INT           NOT NULL AUTO_INCREMENT,
+  `Name`				VARCHAR(45)   NOT NULL,
+  `MuskelgruppeNavn`	VARCHAR(45)   NOT NULL,
+  PRIMARY KEY (`idOvelsegruppe`)
+);
+
+CREATE TABLE `DatDat`.`Ovelse`
+(
+  `idOvelse`			INT           NOT NULL AUTO_INCREMENT,
+  `ovelseName`          VARCHAR(45)   NOT NULL,
+  `idOvelsegruppe` 		INT 		  NOT NULL,
+  PRIMARY KEY (`idOvelse`),
+	CONSTRAINT `ovelseidFk`
+		FOREIGN KEY (`idOvelsegruppe`)
+			REFERENCES `DatDat`.`Ovelsegruppe` (`idOvelsegruppe`)
+  	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+CREATE TABLE `DatDat`.`Treningsokt`
+(
+  `idTreningsokt`	INT         NOT NULL AUTO_INCREMENT,
+  `Date`			VARCHAR(20) 	NOT NULL,
+  `Time`			INT 		NOT NULL,
+  `Length` 			INT  		NOT NULL,
+  `PersonalShape`	INT  		NOT NULL,
+  `Performance`		INT  		NOT NULL,
+  `Note`			VARCHAR(400),
+  PRIMARY KEY (`idTreningsokt`)
+);
+
+CREATE TABLE `DatDat`.`Apparat`
+(
+  `idApparat`   INT           NOT NULL AUTO_INCREMENT,
+  `Name`     	VARCHAR(45)   NOT NULL,
+  `Description` VARCHAR(1000) NOT NULL,
+  PRIMARY KEY (`idApparat`)
+);
+
+CREATE TABLE `DatDat`.`Favorittokt`
+(
+  `idFavorittokt`	INT           NOT NULL AUTO_INCREMENT,
+  `Name`        	VARCHAR(45)   NOT NULL,
+  `Description`		VARCHAR(400),
+  `idTreningsokt`	int			  NOT  NULL,
+  PRIMARY KEY (`idFavorittokt`),
+  	CONSTRAINT `favorittoktFkid`
+		FOREIGN KEY (`idTreningsokt`)
+			REFERENCES `DatDat`.`Treningsokt` (`idTreningsokt`)
+  	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+CREATE TABLE `DatDat`.`FastOvelse`
+(
+  `Kilo`        	INT   	NOT NULL,
+  `Set`				INT		NOT NULL,
+  `idOvelse`		INT		NOT NULL,
+  FOREIGN KEY (idOvelse) REFERENCES Ovelse (idOvelse)
+  	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+CREATE TABLE `DatDat`.`FriOvelse`
+(
+  `Description`		VARCHAR(400),
+  `idOvelse`		INT		NOT NULL,
+  FOREIGN KEY (idOvelse) REFERENCES Ovelse (idOvelse)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+CREATE TABLE `DatDat`.`OvelseiTreningsokt`
+(
+`idOvelse`				INT		NOT NULL,
+`idTreningsokt`			INT		NOT NULL,
+`Name`					VARCHAR(45) NOT NULL,
+FOREIGN KEY (idOvelse) REFERENCES Ovelse (idOvelse)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE,
+FOREIGN KEY (idTreningsokt) REFERENCES Treningsokt (idTreningsokt)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+# Ovelsegruppe
+INSERT INTO Ovelsegruppe(`Name`,`MuskelgruppeNavn`)
+VALUES ('Kule øvelse', 'Armer');
+# Ovelsegruppe
+INSERT INTO Ovelsegruppe(`Name`,`MuskelgruppeNavn`)
+VALUES ('teite øvelser', 'ben');
+# Ovelse
+INSERT INTO Ovelse(`ovelseName`,`idOvelsegruppe`)
+VALUES ('Benkpress','1');
+# Ovelse
+INSERT INTO Ovelse(`ovelseName`,`idOvelsegruppe`)
+VALUES ('MuscelUps','1');
+# Ovelse
+INSERT INTO Ovelse(`ovelseName`,`idOvelsegruppe`)
+VALUES ('ChinUps','1');
+# Ovelse
+INSERT INTO Ovelse(`ovelseName`,`idOvelsegruppe`)
+VALUES ('Incline Benkpress','2');
+# Treningsokt
+INSERT INTO Treningsokt(`Date`,`Time`,`Length`,`PersonalShape`,`Performance`,`Note`)
+VALUES ('12.02.19','90.12','39','9','1','hei');
+# Treningsokt
+INSERT INTO Treningsokt(`Date`,`Time`,`Length`,`PersonalShape`,`Performance`,`Note`)
+VALUES ('12.02.19','90.12','39','9','1','heisann');
+# Treningsokt
+INSERT INTO Treningsokt(`Date`,`Time`,`Length`,`PersonalShape`,`Performance`,`Note`)
+VALUES ('12.02.19','90.12','39','9','1','hallo');
+# FavorittØkt
+INSERT INTO Favorittokt(`Name`,`Description`,`idTreningsokt`)
+VALUES ('martin','erkul','1');
