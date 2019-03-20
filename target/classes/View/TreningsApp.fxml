@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<fx:root prefHeight="653.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TreningsAppController">
+   <children>
+      <Text layoutX="54.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TreningsAppen" wrappingWidth="176.29681396484375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TabPane layoutX="45.0" layoutY="47.0" prefHeight="575.0" prefWidth="510.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab id="tab1" text="Treningsøkt">
+               <content>
+                  <AnchorPane prefHeight="354.0" prefWidth="510.0">
+                     <children>
+                        <Text layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velg dato for treningsøkt" wrappingWidth="146.13671875" />
+                        <DatePicker id="Dato" layoutX="14.0" layoutY="61.0" />
+                        <Text layoutX="25.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Øvelser" wrappingWidth="118.93670654296875" />
+                        <TextArea layoutX="14.0" layoutY="133.0" prefHeight="130.0" prefWidth="161.0" />
+                        <Text layoutX="193.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form" wrappingWidth="43.73675537109375" />
+                        <Text layoutX="193.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Presentasjon" wrappingWidth="78.93670654296875" />
+                        <TextField layoutX="193.0" layoutY="133.0" prefHeight="26.0" prefWidth="74.0" />
+                        <TextField layoutX="193.0" layoutY="185.0" prefHeight="26.0" prefWidth="74.0" />
+                        <Text layoutX="297.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notat" wrappingWidth="43.73675537109375" />
+                        <TextArea layoutX="297.0" layoutY="133.0" prefHeight="130.0" prefWidth="161.0" />
+                        <Text layoutX="193.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Varighet" wrappingWidth="78.93670654296875" />
+                        <TextField layoutX="193.0" layoutY="236.0" prefHeight="26.0" prefWidth="74.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab id="tab3" text="Registrer økt">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <DatePicker layoutX="33.0" layoutY="41.0" />
+                        <Text layoutX="33.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velg dato" wrappingWidth="83.2578125" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab id="tab2" text="Øvelser">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="36.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lagrede øvelser" />
+                        <TextArea layoutX="19.0" layoutY="47.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Aparat">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Registrer Øvelse">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="44.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Navn" wrappingWidth="46.82110595703125" />
+                        <TextField layoutX="35.0" layoutY="43.0" />
+                        <CheckBox layoutX="219.0" layoutY="47.0" mnemonicParsing="false" text="Apparat øvelse" />
+                        <Text layoutX="44.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beskrivelse" wrappingWidth="74.0211181640625" />
+                        <TextArea layoutX="35.0" layoutY="111.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Text layoutX="270.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Navn på apparat" wrappingWidth="100.42108154296875" />
+                        <TextField layoutX="270.0" layoutY="111.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</fx:root>
