@@ -46,8 +46,6 @@ public class Øvelse extends ActiveDomainObject {
 
         PreparedStatement ps = conn.prepareStatement(SQL);
 
-        ps.setInt(1, number);
-
 
         ResultSet rs = ps.executeQuery();
         while (rs.next()) {

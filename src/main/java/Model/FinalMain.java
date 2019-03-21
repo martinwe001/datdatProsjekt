@@ -9,7 +9,7 @@ public class FinalMain {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         boolean run = true;
         boolean a = true;
@@ -36,7 +36,13 @@ public class FinalMain {
 
                         }
                         else if (s100.equals("2")){
-
+                            System.out.println("Navn  og beskrivelse på apparat?");
+                            String s103 = scanner.nextLine();
+                            String s104 = scanner.nextLine();
+                            Apparat apparat = new Apparat();
+                            apparat.setName(s103);
+                            apparat.setDescription(s104);
+                            apparat.create();
                         }
                         else{
 
@@ -180,6 +186,8 @@ public class FinalMain {
 
                     }
                     else if(s2.equals("3")){
+                        Øvelse øvelse = new Øvelse();
+                        øvelse.read("lol","lol");
 
                     }
                     else if (s2.equals("4")){

@@ -2,53 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b737df6c-01f0-4529-b94c-22a8e54d8a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lynden_GMapsFX_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DatDat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datdat.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.mwb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.mwb.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model1.mwb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DatDat/META-INF/DatDat.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Misc/ConnectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ActiveDomainObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Apparat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/FastOvelse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/FavorittØkt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/FinalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/FriOvelse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Treningsokt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Øvelse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ØvelseITreningsøkt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Øvelsegruppe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/DatDat.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Misc/ConnectTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/ActiveDomainObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/Apparat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/FastOvelse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/FavorittØkt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/FinalMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/FriOvelse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/Treningsokt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/Øvelse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/ØvelseITreningsøkt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Model/Øvelsegruppe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/View/TreningsApp.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/View/ØvelseView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/FinalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/FinalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Øvelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Øvelse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/FinalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/FinalMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Treningsokt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Treningsokt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/TreningsApp.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/ØvelseView.fxml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,23 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/FinalMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="360">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/ØvelseITreningsøkt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Øvelsegruppe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="138">
               <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Treningsokt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
+            <state relative-caret-position="-672">
               <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Øvelse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="174">
+              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#update#0;class#Øvelse#0" />
@@ -138,14 +86,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/FavorittØkt.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/FastOvelse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="448">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1342#1343#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Apparat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/ØvelseIGruppe.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/ActiveDomainObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Øvelsegruppe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Øvelse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/FavorittØkt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/FastOvelse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/FriOvelse.java" />
@@ -208,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/ØvelseITreningsøkt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Treningsokt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/sql" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Øvelse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/FinalMain.java" />
       </list>
     </option>
@@ -278,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553118757150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553180388171" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -384,12 +343,28 @@
       <option name="presentableId" value="Default" />
       <updated>1552555748801</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1553118742184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553118742184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add sql code">
+      <created>1553118841221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553118841221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,12 +373,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27903682" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27903682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -444,6 +419,11 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add sql code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sql code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -518,16 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FastOvelse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/FriOvelse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -538,23 +508,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Apparat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="341">
+          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
+        <state relative-caret-position="570">
           <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -562,22 +525,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Øvelse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Treningsokt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="-672">
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#update#0;class#Øvelse#0" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="method#update#0;class#Treningsokt#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/FavorittØkt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="648">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -587,9 +548,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ØvelseITreningsøkt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Øvelsegruppe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="138">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -598,21 +569,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Treningsokt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Øvelse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        <state relative-caret-position="174">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#update#0;class#Treningsokt#0" />
+            <element signature="method#update#0;class#Øvelse#0" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ØvelseITreningsøkt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FastOvelse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="448">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Apparat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -621,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/FinalMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="360">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
